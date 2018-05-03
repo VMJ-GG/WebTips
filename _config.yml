@@ -1,0 +1,10 @@
+title: "WebTips"
+banner: "Sviluppo Web per giovani studenti"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      images_dir: "assets/images"

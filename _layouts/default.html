@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <!-- Head Content -->
+    {% include head.html %}
+
+    <!-- Page Title -->
+    <title>{{ page.title | default: site.title }} | {{ page.banner | default: site.banner }}</title>
+  </head>
+  <body>
+    <!-- Header and Navigation -->
+    {% include header.html %}
+
+
+    <!-- Main Content -->
+    {{ content }}
+
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Common Scripts -->
+    {% include scripts.html %}
+  </body>
+</html>
